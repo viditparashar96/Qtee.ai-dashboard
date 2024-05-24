@@ -1,6 +1,9 @@
 import PlusSvg from "./PlusSvg";
 
-const SectionSvg = ({ crossesOffset }) => {
+// import PlusSvg from "./PlusSvg";
+
+
+const SectionSvg = ({ crossesOffset }:any) => {
   return (
     <>
       <PlusSvg

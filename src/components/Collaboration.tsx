@@ -1,11 +1,19 @@
 "use client";
 
+import { brainwaveSymbol, check } from "@/assets";
+import { collabApps, collabContent, collabText } from "@/constants";
 import Image from "next/image";
-import { brainwaveSymbol, check } from "../assets";
-import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
+import Link from "next/link";
+// import { brainwaveSymbol, check } from "../assets";
+// import { collabApps, collabContent, collabText } from "../constants";
+// import Button from "./Button";
+// import Section from "./Section";
+// import { LeftCurve, RightCurve } from "./design/Collaboration";
+
+
 
 const Collaboration = () => {
   return (
@@ -13,32 +21,36 @@ const Collaboration = () => {
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">
-            AI Chat App for seamless collaboration
+          Ready to Transform Your Call Auditing Process?
           </h2>
 
           <ul className="max-w-[22rem] mb-10 md:mb-14">
-            {collabContent.map((item) => (
+            {collabContent.map((item:any) => (
               <li className="mb-3 py-3" key={item.id}>
+                 {item.text && (
+                  <p className="body-2 mt-3 text-n-4">{item.text}</p>
+                )}
                 <div className="flex items-center">
                   <Image src={check} width={24} height={24} alt="check" />
                   <h6 className="body-2 ml-5">{item.title}</h6>
                 </div>
-                {item.text && (
-                  <p className="body-2 mt-3 text-n-4">{item.text}</p>
-                )}
+               
               </li>
             ))}
           </ul>
 
-          <Button>Try it now</Button>
+          <Link href={'https://app.qtee.ai/login'}><Button >Try it now</Button></Link>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
+          <p className="body-2 mb-1 text-n-4 md:mb-2 lg:mb- lg:w-[22rem] lg:mx-auto">
+          Join the leaders who are already enhancing their customer interactions with qtee.ai.
+          </p>
           <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">
-            {collabText}
+          Sign up for a free demo today and experience firsthand how our platform can transform your business’s approach to quality assurance in customer service.
           </p>
 
-          <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">
+          {/* <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">
             <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
               <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
                 <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
@@ -79,7 +91,8 @@ const Collaboration = () => {
 
             <LeftCurve />
             <RightCurve />
-          </div>
+          </div> */}
+          <Image className="w-full h-96" src={'/collabs.png'} width={1024} height={420} alt="not"/>
         </div>
       </div>
     </Section>

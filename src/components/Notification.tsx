@@ -1,8 +1,11 @@
 "use client";
 
+import { notification1 } from "@/assets";
+import { notificationImages } from "@/constants";
 import Image from "next/image";
-import { notification1 } from "../assets";
-import { notificationImages } from "../constants";
+// import { notification1 } from "../assets";
+// import { notificationImages } from "../constants";
+
 
 const Notification = ({ className, title }: any) => {
   return (
@@ -34,7 +37,7 @@ const Notification = ({ className, title }: any) => {
                   className="w-full"
                   width={20}
                   height={20}
-                  alt={item}
+                  alt="item"
                 />
               </li>
             ))}

@@ -1,11 +1,13 @@
 "use client";
 
 import Image from "next/image";
-import { smallSphere, stars } from "../assets";
+// import { smallSphere, stars } from "../assets";
 import Heading from "./Heading";
 import PricingList from "./PricingList";
 import Section from "./Section";
 import { LeftLine, RightLine } from "./design/Pricing";
+import { smallSphere, stars } from "@/assets";
+ 
 
 const Pricing = () => {
   return (
@@ -32,7 +34,7 @@ const Pricing = () => {
 
         <Heading
           tag="Get started with Brainwave"
-          title="Pay once, use forever"
+          title="Cost-effectively build any software"
         />
 
         <div className="relative">

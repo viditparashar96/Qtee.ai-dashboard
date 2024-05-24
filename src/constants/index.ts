@@ -49,12 +49,12 @@ export const navigation = [
   },
   {
     id: "2",
-    title: "How to use",
+    title: "About",
     url: "#how-to-use",
   },
   {
     id: "3",
-    title: "Roadmap",
+    title: "Reviews",
     url: "#roadmap",
   },
   {
@@ -128,21 +128,20 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Join the leaders who are already enhancing their customer interactions with qtee.ai.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Automated Call Scoring",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Speech Analytics ",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Agent Coaching & Performance Tracking",
   },
 ];
 
@@ -244,16 +243,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    title: "AI-Powered Auditing:",
+    text: "Utilizing cutting-edge AI, qtee.ai evaluates calls against a predefined script, key performance indicators, and the authenticity of information shared during interactions. This ensures a detailed and unbiased assessment of each call",
+    backgroundUrl: "/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Customizable Auditing Parameters:",
+    text: "Tailor qtee.ai to fit your unique business needs. Add custom parameters like tone analysis, compliance adherence, customer satisfaction indicators, and more to make your audits more relevant and effective.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +260,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Dynamic Administrative Dashboard:",
+    text: "Manage your team with ease and precision through our comprehensive administrative dashboard. Features include:",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Real-time Call Monitoring:",
+    text: "Supervisors can identify situations where agents might be struggling or require guidance. They can then provide real-time coaching or intervene discreetly to help the agent navigate the call towards a positive resolution.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,20 +277,20 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Robust Data Security:",
+    text: "With top-tier encryption and compliance with global data protection regulations, your information is secure with qtee.ai.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
-  {
-    id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-  },
+  // {
+  //   id: "5",
+  //   title: "Improve everyday",
+  //   text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+  //   backgroundUrl: "./src/assets/benefits/card-6.svg",
+  //   iconUrl: benefitIcon2,
+  //   imageUrl: benefitImage2,
+  // },
 ];
 
 export const socials = [
