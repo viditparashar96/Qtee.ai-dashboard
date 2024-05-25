@@ -71,12 +71,12 @@ const Roadmap = () => (
         >
           <div className="w-full relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
             <div className="w-full relative z-1">
-              <div className="w-full flex items-center justify-between  mb-8 md:mb-20">
+              <div className="w-full flex flex-col-reverse gap-2 sm:flex-row sm:items-center sm:justify-between mb-4">
                 <div className="flex items-center gap-2">
                   <div className="w-10 h-10 rounded-full overflow-hidden bg-red-100"></div>
-                  <div className="flex flex-col items-center jusitify-between">
+                  <div className="flex flex-col items-start jusitify-between text-sm md:text-regular">
                     <h4>William Franky</h4>
-                    <p className="text-sm">Sales Manager</p>
+                    <p className="text-xs md:text-sm">Sales Manager</p>
                   </div>
                 </div>
 
@@ -88,21 +88,20 @@ const Roadmap = () => (
                     <FaStar />
                     <FaStar />
                   </div>
-                  <div className="tagline"> </div>
                 </div>
               </div>
 
-              <div className="mb-10 -my-10 -mx-15">
-                {/* <Image
+              {/* <div className="mb-10 -my-10 -mx-15">
+                <Image
                       className="w-full"
                       src={"/levelup.png"}
                       width={628}
                       height={426}
                       alt={'item.title'}
-                    /> */}
-              </div>
+                    />
+              </div> */}
               {/* <h4 className="h4 mb-4"></h4> */}
-              <p className="body-2 text-white opacity-70">
+              <p className="body-2 text-white opacity-70 text-justify">
                 “Game-changing intelligence! Our team has a transformative shift
                 since implementing this AI CRM software. Smart prioritization
                 are a game-changer for our daily work.”
@@ -115,12 +114,12 @@ const Roadmap = () => (
         >
           <div className="w-full relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
             <div className="w-full relative z-1">
-              <div className="w-full flex items-center justify-between  mb-8 md:mb-20">
+              <div className="w-full flex flex-col-reverse gap-2 sm:flex-row sm:items-center sm:justify-between mb-4">
                 <div className="flex items-center gap-2">
                   <div className="w-10 h-10 rounded-full overflow-hidden bg-red-100"></div>
-                  <div className="flex flex-col items-center jusitify-between">
+                  <div className="flex flex-col items-start jusitify-between text-sm md:text-regular">
                     <h4>Dianne Russell</h4>
-                    <p className="text-sm">Marketing Head</p>
+                    <p className="text-xs md:text-sm">Marketing Head</p>
                   </div>
                 </div>
 
@@ -132,21 +131,20 @@ const Roadmap = () => (
                     <FaStar />
                     <FaStar />
                   </div>
-                  <div className="tagline"></div>
                 </div>
               </div>
 
-              <div className="mb-10 -my-10 -mx-15">
-                {/* <Image
+              {/* <div className="mb-10 -my-10 -mx-15">
+                <Image
                       className="w-full"
                       src={"/levelup.png"}
                       width={628}
                       height={426}
                       alt={'item.title'}
-                    /> */}
-              </div>
+                    />
+              </div> */}
               {/* <h4 className="h4 mb-4"></h4> */}
-              <p className="body-2 text-white opacity-70">
+              <p className="body-2 text-white opacity-70 text-justify">
                 &ldquo;Effortless task management! This AI CRM tool has
                 simplified our task management process. Automated task
                 assignment ensures tasks are distributed fairly and based on
@@ -160,12 +158,12 @@ const Roadmap = () => (
         >
           <div className="w-full relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
             <div className="w-full relative z-1">
-              <div className="w-full flex items-center justify-between  mb-8 md:mb-20">
+              <div className="w-full flex flex-col-reverse gap-2 sm:flex-row sm:items-center sm:justify-between mb-4">
                 <div className="flex items-center gap-2">
                   <div className="w-10 h-10 rounded-full overflow-hidden bg-red-100"></div>
-                  <div className="flex flex-col items-center jusitify-between">
+                  <div className="flex flex-col items-start jusitify-between text-sm md:text-regular">
                     <h4>Mark Lee</h4>
-                    <p className="text-sm">Business Developer</p>
+                    <p className="text-xs md:text-sm">Business Developer</p>
                   </div>
                 </div>
 
@@ -177,21 +175,20 @@ const Roadmap = () => (
                     <FaStar />
                     <FaStar />
                   </div>
-                  <div className="tagline"></div>
                 </div>
               </div>
 
-              <div className="mb-10 -my-10 -mx-15">
-                {/* <Image
+              {/* <div className="mb-10 -my-10 -mx-15">
+                <Image
                       className="w-full"
                       src={"/levelup.png"}
                       width={628}
                       height={426}
                       alt={'item.title'}
-                    /> */}
-              </div>
+                    />
+              </div> */}
               {/* <h4 className="h4 mb-4"></h4> */}
-              <p className="body-2 text-white opacity-70">
+              <p className="body-2 text-white opacity-70 text-justify">
                 &ldquo;Insights at your fingertips! The reporting capabilities
                 of this AI CRM software are outstanding. Highly recommend for
                 anyone serious about AI for growth.&rdquo;
@@ -204,12 +201,12 @@ const Roadmap = () => (
         >
           <div className="w-full relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
             <div className="w-full relative z-1">
-              <div className="w-full flex items-center justify-between  mb-8 md:mb-20">
+              <div className="w-full flex flex-col-reverse gap-2 sm:flex-row sm:items-center sm:justify-between mb-4">
                 <div className="flex items-center gap-2">
                   <div className="w-10 h-10 rounded-full overflow-hidden bg-red-100"></div>
-                  <div className="flex flex-col items-center jusitify-between">
+                  <div className="flex flex-col items-start jusitify-between text-sm md:text-regular">
                     <h4>Jastine Trade</h4>
-                    <p className="text-sm">Real Estate Professiona</p>
+                    <p className="text-xs md:text-sm">Real Estate Professiona</p>
                   </div>
                 </div>
 
@@ -221,21 +218,20 @@ const Roadmap = () => (
                     <FaStar />
                     <FaStar />
                   </div>
-                  <div className="tagline"></div>
                 </div>
               </div>
 
-              <div className="mb-10 -my-10 -mx-15">
-                {/* <Image
+              {/* <div className="mb-10 -my-10 -mx-15">
+                <Image
                       className="w-full"
                       src={"/levelup.png"}
                       width={628}
                       height={426}
                       alt={'item.title'}
-                    /> */}
-              </div>
+                    />
+              </div> */}
               {/* <h4 className="h4 mb-4"></h4> */}
-              <p className="body-2 text-white opacity-70">
+              <p className="body-2 text-white opacity-70 text-justify">
                 &ldquo;Personalization excellence! The personalization features
                 of this AI CRM tool have taken our customer interactions to the
                 next level. Our clients appreciate &amp; it&apos;s reflected in
@@ -249,12 +245,12 @@ const Roadmap = () => (
         >
           <div className="w-full relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
             <div className="w-full relative z-1">
-              <div className="w-full flex items-center justify-between  mb-8 md:mb-20">
+              <div className="w-full flex flex-col-reverse gap-2 sm:flex-row sm:items-center sm:justify-between mb-4">
                 <div className="flex items-center gap-2">
                   <div className="w-10 h-10 rounded-full overflow-hidden bg-red-100"></div>
-                  <div className="flex flex-col items-center jusitify-between">
+                  <div className="flex flex-col items-start jusitify-between text-sm md:text-regular">
                     <h4>Jacob Jones</h4>
-                    <p className="text-sm">Founder @ Software Company</p>
+                    <p className="text-xs md:text-sm">Founder @ Software Company</p>
                   </div>
                 </div>
 
@@ -266,21 +262,20 @@ const Roadmap = () => (
                     <FaStar />
                     <FaStar />
                   </div>
-                  <div className="tagline"></div>
                 </div>
               </div>
 
-              <div className="mb-10 -my-10 -mx-15">
-                {/* <Image
+              {/* <div className="mb-10 -my-10 -mx-15">
+                <Image
                       className="w-full"
                       src={"/levelup.png"}
                       width={628}
                       height={426}
                       alt={'item.title'}
-                    /> */}
-              </div>
+                    />
+              </div> */}
               {/* <h4 className="h4 mb-4"></h4> */}
-              <p className="body-2 text-white opacity-70">
+              <p className="body-2 text-white opacity-70 text-justify">
                 &ldquo;Efficient and proactive! This AI CRM software has
                 significantly improved our workflow efficiency. The
                 system&apos;s proactive approach to task management &amp;
@@ -294,12 +289,12 @@ const Roadmap = () => (
         >
           <div className="w-full relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
             <div className="w-full relative z-1">
-              <div className="w-full flex items-center justify-between  mb-8 md:mb-20">
+              <div className="w-full flex flex-col-reverse gap-2 sm:flex-row sm:items-center sm:justify-between mb-4">
                 <div className="flex items-center gap-2">
                   <div className="w-10 h-10 rounded-full overflow-hidden bg-red-100"></div>
-                  <div className="flex flex-col items-center jusitify-between">
+                  <div className="flex flex-col items-start jusitify-between text-sm md:text-regular">
                     <h4>Abraham Maslow</h4>
-                    <p className="text-sm">Bank Manager</p>
+                    <p className="text-xs md:text-sm">Bank Manager</p>
                   </div>
                 </div>
 
@@ -311,21 +306,20 @@ const Roadmap = () => (
                     <FaStar />
                     <FaStar />
                   </div>
-                  <div className="tagline"></div>
                 </div>
               </div>
 
-              <div className="mb-10 -my-10 -mx-15">
-                {/* <Image
+              {/* <div className="mb-10 -my-10 -mx-15">
+                <Image
                       className="w-full"
                       src={"/levelup.png"}
                       width={628}
                       height={426}
                       alt={'item.title'}
-                    /> */}
-              </div>
+                    />
+              </div> */}
               {/* <h4 className="h4 mb-4"></h4> */}
-              <p className="body-2 text-white opacity-70">
+              <p className="body-2 text-white opacity-70 text-justify">
                 &ldquo;User-friendly AI! The natural language processing and
                 intuitive design make this AI CRM software a pleasure to use.
                 Even team members with limited technical expertise. A fantastic

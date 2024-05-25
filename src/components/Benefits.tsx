@@ -24,8 +24,8 @@ const Benefits = () => {
           className="md:max-w-md lg:max-w-2xl"
           title="Core Features of Qtee.ai"
         />
-        <div className="flex w-full">
-          <div className="w-[70%] flex flex-wrap gap-10 mb-10">
+        <div className="flex flex-col md:flex-row md:gap-1 lg:gap-1 mb-10">
+          <div className="w-full md:w-2/3 flex flex-wrap gap-6 md:gap-10">
             {/* {benefits.map((item) => (
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
@@ -36,7 +36,7 @@ const Benefits = () => {
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
                 <h5 className="h5 mb-5">{item.title}</h5>
-                <p className="body-2 mb-6 text-n-3">{item.text}</p>
+                <p className="body-2 mb-6 text-n-3 text-justify">{item.text}</p>
                 <div className="flex items-center mt-auto">
                   <Image
                     src={item.iconUrl}
@@ -75,14 +75,14 @@ const Benefits = () => {
           ))} */}
 
             <div
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
+              className="w-full md:max-w-[24rem] bg-[length:100%_100%] relative"
               style={{
                 backgroundImage: `url(/benefits/card-1.svg)`,
               }}
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
                 <h5 className="h5 mb-5">AI-Powered Auditing:</h5>
-                <p className="body-2 mb-6 text-n-3">
+                <p className="body-2 mb-6 text-n-3 text-justify">
                   Utilizing cutting-edge AI, qtee.ai evaluates calls against a
                   predefined script, key performance indicators, and the
                   authenticity of information shared during interactions. This
@@ -122,14 +122,14 @@ const Benefits = () => {
               <ClipPath />
             </div>
             <div
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
+              className="w-full md:max-w-[24rem] bg-[length:100%_100%] relative"
               style={{
                 backgroundImage: `url(/benefits/card-1.svg)`,
               }}
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
                 <h5 className="h5 mb-5">Customizable Auditing Parameters:</h5>
-                <p className="body-2 mb-6 text-n-3">
+                <p className="body-2 mb-6 text-n-3 text-justify">
                   Tailor qtee.ai to fit your unique business needs. Add custom
                   parameters like tone analysis, compliance adherence, customer
                   satisfaction indicators, and more to make your audits more
@@ -169,18 +169,15 @@ const Benefits = () => {
               <ClipPath />
             </div>
             <div
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
+              className="w-full md:max-w-[24rem] bg-[length:100%_100%] relative"
               style={{
                 backgroundImage: `url(/benefits/card-1.svg)`,
               }}
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
-                <h5 className="h5 mb-5">Customizable Auditing Parameters:</h5>
-                <p className="body-2 mb-6 text-n-3">
-                  Tailor qtee.ai to fit your unique business needs. Add custom
-                  parameters like tone analysis, compliance adherence, customer
-                  satisfaction indicators, and more to make your audits more
-                  relevant and effective.
+                <h5 className="h5 mb-5">Real-time Call Monitoring:</h5>
+                <p className="body-2 mb-6 text-n-3 text-justify">
+                Supervisors can identify situations where agents might be struggling or require guidance. They can then provide real-time coaching or intervene discreetly to help the agent navigate the call towards a positive resolution.
                 </p>
                 <div className="flex items-center mt-auto">
                   <Image
@@ -216,18 +213,15 @@ const Benefits = () => {
               <ClipPath />
             </div>
             <div
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
+              className="w-full md:max-w-[24rem] bg-[length:100%_100%] relative"
               style={{
                 backgroundImage: `url(/benefits/card-1.svg)`,
               }}
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
-                <h5 className="h5 mb-5">Customizable Auditing Parameters:</h5>
-                <p className="body-2 mb-6 text-n-3">
-                  Tailor qtee.ai to fit your unique business needs. Add custom
-                  parameters like tone analysis, compliance adherence, customer
-                  satisfaction indicators, and more to make your audits more
-                  relevant and effective.
+                <h5 className="h5 mb-5">Robust Data Security:</h5>
+                <p className="body-2 mb-6 text-n-3 text-justify">
+                With top-tier encryption and compliance with global data protection regulations, your information is secure with qtee.ai.
                 </p>
                 <div className="flex items-center mt-auto">
                   <Image
@@ -263,16 +257,16 @@ const Benefits = () => {
               <ClipPath />
             </div>
           </div>
-          <div className="w-[30%]">
+          <div className="w-full md:w-1/2 lg:w-1/3">
             <div
-              className="w-full block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
+              className="w-full md:max-w-[24rem] bg-[length:100%_100%] relative"
               style={{
                 backgroundImage: `url(/benefits/card-1.svg)`,
               }}
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
                 <h5 className="h5 mb-5">Dynamic Administrative Dashboard:</h5>
-                <p className="body-2 mb-6 text-n-3">
+                <p className="body-2 mb-6 text-n-3 text-justify">
                   Manage your team with ease and precision through our
                   comprehensive administrative dashboard. Features include:
                 </p>
