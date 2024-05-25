@@ -1,7 +1,9 @@
 "use client";
 
+import { loading } from "@/assets";
 import Image from "next/image";
-import { loading } from "../assets";
+// import { loading } from "../assets";
+
 
 const Generating = ({ className }: any) => {
   return (

@@ -1,15 +1,20 @@
 "use client";
 
+// import { brainwave } from "../assets";
+
+// import MenuSvg from "../assets/svg/MenuSvg";
+// import { navigation } from "../constants";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { brainwave } from "../assets";
-import MenuSvg from "../assets/svg/MenuSvg";
-import { navigation } from "../constants";
+
 import Button from "./Button";
 import { HamburgerMenu } from "./design/Header";
+import { brainwave } from "@/assets";
+import MenuSvg from "@/assets/svg/MenuSvg";
+import { navigation } from "@/constants";
 
 const Header = () => {
   const pathname = usePathname();
@@ -40,7 +45,7 @@ const Header = () => {
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <a className="block w-[12rem] xl:mr-8" href="#hero">
-          <Image src={brainwave} width={190} height={40} alt="Brainwave" />
+          <Image className="filter invert" src={'/Qtee.ai-preview.png'} width={190} height={40} alt="Brainwave" />
         </a>
 
         <nav
@@ -69,12 +74,12 @@ const Header = () => {
         </nav>
 
         <a
-          href="#signup"
+          href="https://app.qtee.ai/register"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
           New account
         </a>
-        <Button className="hidden lg:flex" href="#login">
+        <Button className="hidden lg:flex" href="https://app.qtee.ai/login">
           Sign in
         </Button>
 
