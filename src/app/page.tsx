@@ -8,6 +8,7 @@ import Pricing from "@/components/Pricing";
 import Roadmap from "@/components/Roadmap";
 import Services from "@/components/Services";
 
+export const runtime = "edge";
 
 export default function Home() {
   return (
