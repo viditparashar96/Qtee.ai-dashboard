@@ -1,7 +1,7 @@
 "use client";
 
+import Arrow from "@/assets/svg/Arrow";
 import Image from "next/image";
-import Arrow from "../assets/svg/Arrow";
 import ClipPath from "../assets/svg/ClipPath";
 import { benefits } from "../constants";
 import Heading from "./Heading";

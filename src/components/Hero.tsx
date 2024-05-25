@@ -1,9 +1,9 @@
 "use client";
 
+import { curve, heroBackground, robot } from "@/assets";
 import Image from "next/image";
 import { useRef } from "react";
 import { ScrollParallax } from "react-just-parallax";
-import { curve, heroBackground, robot } from "../assets";
 import { heroIcons } from "../constants";
 import Button from "./Button";
 import CompanyLogos from "./CompanyLogos";
