@@ -46,7 +46,7 @@ const Hero = () => {
             every sales and support service call meets the highest standards of
             quality and efficiency.
           </p>
-          <Button href="/pricing" white>
+          <Button href="https://app.qtee.ai/login" white>
             Get started
           </Button>
         </div>

@@ -73,13 +73,15 @@ const Services = () => {
                 </ul> */}
               </div>
 
-              <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
+              <div className="relative object-center h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
                 <Image
                   src={'/card.png'}
-                  className="w-full"
+                  className="w-full h-[80%] md:h-[90%]"
+                  // objectFit="contain"
+                  objectPosition="center"
                   width={520}
                   height={400}
-                  alt="Scary robot"
+                  alt="can't show image"
                 />
 
                 {/* <VideoChatMessage />
@@ -95,37 +97,37 @@ const Services = () => {
           />
 
 
+{/* jsx */}
 
-          <div className="mt-4 relative z-1 flex flex-col items-center mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:flex-row lg:p-20 xl:flex-col xl:h-[46rem]">
-            <div className="w-full lg:w-3/5 xl:w-full flex items-center justify-center lg:justify-start xl:justify-center">
-              <Image
-                className="h-[20rem] lg:h-full w-full object-contain mb-4 lg:mb-0"
-                width={800}
-                alt="Smartest AI"
-                height={730}
-                src={'/call.png'}
-              />
-            </div>
-            <div className="w-full md:w-[17rem] ml-auto mt-4 lg:mt-0 lg:ml-8 xl:mt-8 xl:ml-0 lg:flex lg:flex-col lg:items-start xl:flex xl:flex-col xl:items-center">
-              <h4 className="mb-4">Quality Enhancement</h4>
-              <p className="body-2 mb-[3rem] text-n-3">
-                Elevate the quality of your service calls with detailed, actionable insights from our AI analysis.
-              </p>
-              <h4 className="mb-4">Operational Efficiency</h4>
-              <p className="body-2 mb-[3rem] text-n-3">
-                Reduce manual effort in call reviews and utilize insights to train and improve agent performance.
-              </p>
-              <h4 className="mb-4">Scalability</h4>
-              <p className="body-2 mb-[3rem] text-n-3">
-                Whether you handle hundreds or thousands of calls, qtee.ai scales effortlessly to meet your auditing needs.
-              </p>
-              <h4 className="mb-4">Custom Insights</h4>
-              <p className="body-2 mb-[3rem] text-n-3">
-                Gain a deeper understanding of customer interactions with tailored analytics that go beyond basic metrics.
-              </p>
-            </div>
-          </div>
-
+<div className="mt-4 relative z-1 flex flex-col lg:flex-row items-center lg:items-start lg:gap-4 mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+  <div className="w-full md:w-[100%] lg:w-[65%] flex items-center justify-center lg:justify-start">
+    <Image
+      className="h-[20rem] lg:h-full w-full object-contain mb-4 lg:mb-0"
+      width={800}
+      alt="image not available"
+      height={730}
+      src={'/call.png'}
+    />
+  </div>
+  <div className="w-full lg:w-[30%] lg:ml-8 xl:mt-8 xl:ml-0">
+    <h4 className="mb-4">Quality Enhancement</h4>
+    <p className="body-2 mb-[3rem] text-n-3">
+      Elevate the quality of your service calls with detailed, actionable insights from our AI analysis.
+    </p>
+    <h4 className="mb-4">Operational Efficiency</h4>
+    <p className="body-2 mb-[3rem] text-n-3">
+      Reduce manual effort in call reviews and utilize insights to train and improve agent performance.
+    </p>
+    <h4 className="mb-4">Scalability</h4>
+    <p className="body-2 mb-[3rem] text-n-3">
+      Whether you handle hundreds or thousands of calls, qtee.ai scales effortlessly to meet your auditing needs.
+    </p>
+    <h4 className="mb-4">Custom Insights</h4>
+    <p className="body-2 mb-[3rem] text-n-3">
+      Gain a deeper understanding of customer interactions with tailored analytics that go beyond basic metrics.
+    </p>
+  </div>
+</div>
 
 
           <Gradient />
